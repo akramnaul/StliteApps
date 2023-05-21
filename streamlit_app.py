@@ -5,8 +5,8 @@ st.title("stlite sharing: Serverless Streamlit app platform")
 
 st.markdown("""
 
-# image = Image.open('stlitelogo.jpg') 
-# st.image(image, caption='stlite logo')
+image = Image.open('stlitelogo.jpg') 
+st.image(image, caption='stlite logo')
 
 """)
 
