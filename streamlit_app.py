@@ -3,7 +3,7 @@ from PIL import Image
 
 st.title("stlite sharing: Serverless Streamlit app platform")
 
-image = Image.open('/data/stlitelogo.png') 
+image = Image.open('../data/stlitelogo.png') 
 st.image(image, caption='stlite logo')
 
 st.markdown("""
