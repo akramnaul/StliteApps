@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Sub page 01")
+st.title("Sub page 02")
 
 st.markdown("""
 _stlite_ supports **Multi Page Apps (MPA)**, of course!
