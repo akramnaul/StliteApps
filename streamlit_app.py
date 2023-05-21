@@ -5,16 +5,12 @@ st.title("stlite sharing: Serverless Streamlit app platform")
 
 st.markdown("""
 
-image = Image.open('stlitelogo.jpg') 
-st.image(image, caption='stlite logo')
-
-""")
-
-st.markdown("""
-
 ### stlite
 **stlite** is a port of _Streamlit_ to Wasm, powered by Pyodide,
 that runs completely on web browsers.
+
+image = Image.open('stlitelogo.png') 
+st.image(image, caption='stlite logo')
 
 The official repository is [🔗 here](https://github.com/whitphx/stlite).
 
