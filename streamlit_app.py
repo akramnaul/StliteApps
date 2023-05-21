@@ -4,11 +4,14 @@ from PIL import Image
 st.title("stlite sharing: Serverless Streamlit app platform")
 
 st.markdown("""
-image = Image.open('stlitelogo.jpg') 
-st.image(image, caption='stlite logo')
+
+# image = Image.open('stlitelogo.jpg') 
+# st.image(image, caption='stlite logo')
+
 """)
 
 st.markdown("""
+
 ### stlite
 **stlite** is a port of _Streamlit_ to Wasm, powered by Pyodide,
 that runs completely on web browsers.
@@ -41,9 +44,11 @@ All you need to do is copy and paste the URL 👍
 
 * **stlite** GitHub Discussions [🔗 here](https://github.com/whitphx/stlite/discussions/categories/show-and-tell)
 * Streamlit community forum [🔗 here](https://discuss.streamlit.io/)
+
 """)
 
 st.header("Streamlit Component Samples")
+
 st.markdown("""
     All these features are working on your browser!
 """)
